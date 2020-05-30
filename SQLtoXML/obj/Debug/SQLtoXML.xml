@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SQLtoXML
+</name>
+</assembly>
+<members>
+<member name="M:SQLtoXML.SQLXMLTransporter.#ctor(System.String,System.String[],System.Object)">
+	<summary>
+ Create a new instance of the SQL - XML Transporter
+ </summary>
+	<param name="conStr">Connection string to the DB</param>
+	<param name="dataTableNames">All datatable names in the database</param>
+	<param name="databaseColumnsName">All datattable coloums as array of array strings</param>
+	<remarks></remarks>
+</member><member name="P:SQLtoXML.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SQLtoXML.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SQLtoXML.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
